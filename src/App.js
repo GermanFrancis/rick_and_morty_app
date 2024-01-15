@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+import imageRickAndMorty from "./img/rick-morty.png";
 import './App.css';
 
 function App() {
+
+  const searchCharacter = () => {
+    
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className='title'> Rick & Morty App </h1>
+        <img src={imageRickAndMorty} alt='Rick & Morty' className='img-home'/>
+        <button onClick={searchCharacter} className="btn-search"> Buscar personaje</button>
       </header>
     </div>
   );
