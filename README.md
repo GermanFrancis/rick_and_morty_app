@@ -1,8 +1,5 @@
-# Rick & Morty App Using React
+# Rick & Morty App usando React
 
-Project from React JS Desde Cero
+Proyecto realizado en el curso JavaScript Desde Cero
 
-You can init the project using
-
-### `npm start`
 
